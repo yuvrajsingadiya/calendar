@@ -79,5 +79,35 @@ align-items: center;
     background-color: lightseagreen;
 }
 
- 
+ @media (max-width: 768px) {
+    .calander {
+        width: 100%;
+        height: auto;
+        margin: 10px;
+    }
+
+    .month {
+        height: 80px;
+    }
+
+    .month h1 {
+        font-size: 24px;
+    }
+
+    .month p {
+        font-size: 14px;
+    }
+
+    .WEEK div {
+        font-size: 12px;
+    }
+
+    .days div {
+        font-size: 12px;
+        width: 40px;
+        height: 40px;
+        margin: 2px;
+    }
+}
+
     
